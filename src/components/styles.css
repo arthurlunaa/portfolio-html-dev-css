@@ -387,6 +387,16 @@ footer {
     flex-direction: column;
     padding: 20px;
   }
+  .nav-links{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    gap: 12px
+    ;
+  }
+  .nav-links a {
+    flex-direction: row;
+  }
   header{
     display: contents;
     padding: 0.5rem 0;
@@ -407,28 +417,33 @@ footer {
     display: contents;
   }
   .intro-box h1 {
+    text-align: center;
     font-size: 40px;
   }
 
   .intro-box p {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .profile-section {
-    width: 80%;
-    margin-top: 30px;
+    width: 90%;
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
   }
-
+  .buttons{
+    text-align: center;
+  }
   .skills-grid {
     grid-template-columns: 1fr;
   }
 
   .skill-item h3 {
-    font-size: 18px;
+    font-size: 30px;
   }
 
   .skill-item p {
-    font-size: 16px;
+    font-size: 24px;
   }
 
   .projetos h2 {
@@ -437,10 +452,24 @@ footer {
 .projetos-grid{
   display: grid;
 }
+.projetos-grid h3{
+  font-size: 30px;
+}
+.projetos-grid p{
+  font-size: 24px;
+}
   .resume-btn,
   .projects-btn {
     font-size: 18px;
   }
+}
+
+.contact-info{
+  flex-direction: column;
+  gap: 10px;
+}
+.bottom p{
+  text-align: center;
 }
 
 @media (max-width: 320px) {
