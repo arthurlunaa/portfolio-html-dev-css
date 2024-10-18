@@ -346,10 +346,29 @@ footer {
 
 
 @media (max-width: 768px) and (min-width: 481px) {
+  header{
+    display: contents;
+    padding: 0.5rem 0;
+    background-color: #f0f4f8;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
   header h1 {
     font-size: 24px;
   }
-
+  .nav-links{
+    flex-direction: row;
+    display: flex;
+    text-align: left;
+    padding: 5px;
+  }
+  .nav-links a {
+    gap: 8px;
+  }
   .intro-box {
     padding: 20px;
   }
@@ -411,6 +430,8 @@ footer {
 
   header h1 {
     font-size: 20px;
+    text-align: center;
+    padding: 16px ;
   }
   .intro-box{
     width: 60%;
@@ -462,31 +483,72 @@ footer {
   .projects-btn {
     font-size: 18px;
   }
+  .contact-info{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .bottom p{
+    text-align: center;
+  }
 }
 
-.contact-info{
-  flex-direction: column;
-  gap: 10px;
-}
-.bottom p{
-  text-align: center;
-}
+
+/*finilizado resposivel de smartphones*/
 
 @media (max-width: 320px) {
+  main {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .nav-links{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    gap: 12px
+    ;
+  }
+  .nav-links a {
+    flex-direction: row;
+  }
+  header{
+    display: contents;
+    padding: 0.5rem 0;
+    background-color: #f0f4f8;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+
   header h1 {
     font-size: 18px;
+    text-align: center;
+    padding: 10px
   }
 
   .intro-box h1 {
+    display: flex;
     font-size: 30px;
+    text-align: center;
+    width: 100%;
   }
 
   .intro-box p {
     font-size: 18px;
+    display: flex;
+    text-align: left;
+  }
+  .buttons{
+    text-align: center;
+    display: flex;
   }
 
   .profile-section {
-    width: 90%;
+    width: 75%;
     margin-top: 20px;
   }
 
@@ -495,17 +557,21 @@ footer {
   }
 
   .skill-item h3 {
-    font-size: 16px;
+    font-size: 23px;
   }
 
   .skill-item p {
-    font-size: 14px;
+    font-size: 18px;
   }
-
   .projetos h2 {
     font-size: 30px;
+    padding: 12px;
+    
   }
-
+  .projetos-grid h3{
+    font-size: 23px;
+    
+  }
   .resume-btn,
   .projects-btn {
     font-size: 16px;
