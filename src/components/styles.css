@@ -2,6 +2,7 @@ body {
   background-color: white;
   color: #333;
   margin: 0;
+  width: 100%;
   padding: 0;
   font-family: Arial, sans-serif;
   background-image: url('../assets/image/H.svg');
@@ -279,6 +280,9 @@ footer {
 }
 
 @media (min-width: 1200px) {
+  body{
+    width: 100%;
+  }
   main {
     padding: 60px;
   }
@@ -309,6 +313,9 @@ footer {
 }
 
 @media (max-width: 1199px) and (min-width: 768px) {
+  body{
+    width: 100%;
+  }
   main {
     flex-direction: column;
     align-items: center;
@@ -346,6 +353,14 @@ footer {
 
 
 @media (max-width: 768px) and (min-width: 481px) {
+  body{
+    width: 100%;
+  }
+  main {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+  }
   header{
     display: contents;
     padding: 0.5rem 0;
@@ -402,6 +417,9 @@ footer {
 }
 
 @media (max-width: 480px) and (min-width: 321px) {
+  body{
+    width: 100%;
+  }
   main {
     flex-direction: column;
     padding: 20px;
@@ -496,6 +514,9 @@ footer {
 /*finilizado resposivel de smartphones*/
 
 @media (max-width: 320px) {
+  body{
+    width: 100%;
+  }
   main {
     display: flex;
     width: 100%;
