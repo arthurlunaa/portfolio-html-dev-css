@@ -260,13 +260,15 @@ h3.titulo-projetos {
 footer {
   background-color: #2c2f75;
   color: white;
-  padding: 0.1rem 0;
+  padding: 0.1rem 1;
   flex-direction: row;
 }
+
 .bottom p {
   text-align: left;
-  margin-top: 1px;
+  margin-top: 2px;
   font-size: 24px;
+  padding:0.1rem 1 ;
 }
 .contact-info {
   display: flex;
