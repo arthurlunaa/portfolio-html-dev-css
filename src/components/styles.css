@@ -55,22 +55,20 @@ main {
   max-width: 1200px;
   margin: 0 auto;
 }
-
 .profile-section {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  background-color: #E2E1FC;
+  margin: 8px;
+  
   padding: 20px;
-  border-radius: 20px;
+  border-radius: 1rem;
   width: 35%;
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
 }
 .avatar-box img {
   width: 150px;
   border-radius: 50%;
+  padding: 10px;
 }
 .avatar-box h2,
 .avatar-box h3 {
@@ -271,7 +269,6 @@ footer {
   font-size: 24px;
   padding:0.1rem 1 ;
   gap: 18px;
-
 }
 .contact-info {
   display: flex;
