@@ -56,16 +56,16 @@ main {
   margin: 0 auto;
 }
 .profile-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: auto;
+  padding: 0.rem;
+  
+  
   background-color: #E2E1FC;
-  padding: 20px;
+  
   border-radius: 20px;
-  width: 35%;
-  margin-top: 50px;
-  text-align: center;
+  
+ 
+
 }
 .avatar-box img {
   width: 150px;
@@ -78,7 +78,7 @@ main {
   color: #000080;
 }
 .profile-section h2 {
-  margin-top: 10px;
+  margin-top: px;
   font-size: 28px;
   line-height: 35px;
   color: #000080;
@@ -106,7 +106,7 @@ main {
 }
 .intro-box h1 {
   color: #000080;
-  font-size: 60px;
+  font-size: px;
 
 }
 .intro-box p {

@@ -10,7 +10,7 @@
     <title>Portfolio Arthur </title>
 </head>
 
-<body>
+<body class="bg-gray-200">
     <header>
         <header class="text">
             <h1 class="">ARTHUR LUNA / <a href="#">FRONT-END DEVELOPER</a></h1>
@@ -25,55 +25,60 @@
     </header>
     
 
-    <main class="flex justify-center gap-8   ">
-        <section class="profile-section   flex flex-col justify-center text-white bg-[##E2E1FC;]  ">
-            <h2 class="text-center py-2 px-2 text-white">ARTHUR LUNA</h2>
-            <img src="https://icons.iconarchive.com/icons/iconarchive/incognito-animals/128/Lion-Avatar-icon.png" width="298" height="252" alt="como uma imagem , no caso um avatar de leão" class=" m-8 ">
-           <img src="/portfolio-html-dev-css/src/assets/image/About_Group.svg"  width="0" alt="">
-            <h3 class="text-center  py-2">FRONT-END</h3>
-            <div class="social-links items-center text-center">
-                
+    
+    <main class=" w-full flex justify-center border-4 border-solid gap-8 ">
+
+            <section class="profile-section flex  pb-12 flex-col justify-center border-2 border-solid border-black text-white bg-[##E2E1FC;]  ">
+                <h2 class="text-center py-2 px-2 text-white">ARTHUR LUNA</h2>
+                <img src="https://icons.iconarchive.com/icons/iconarchive/incognito-animals/128/Lion-Avatar-icon.png" width="298" height="252" alt="como uma imagem , no caso um avatar de leão" class=" m-8 ">
+                <img src="/portfolio-html-dev-css/src/assets/image/About_Group.svg"  width="0" alt="">
+                <h3 class="text-center  py-2">FRONT-END</h3>
+                <div class="social-links items-center text-center">
+                    
                     <div class="buttons py-0">
                         <a href="https://www.linkedin.com/in/arthur-henrique-luna-699541178/" class="projects-btn">LINKEDIN</a>
                     </div>
                 </a>
             </div>
+        </div>
         </section>
 
-        <section id="about" class="intro-box">
-            <h1 class="py-3 font-extrabold">HELLO <br> EVERYONE</h1>
+        <section id="about" class="intro-box py-24 px-3 pb-3">
+            <h1 class="py-1 font-extrabold">HELLO  EVERYONE</h1>
             <p class="text-base "><strong>Eu Arthur Luna ,Sou formado em Análise e Desenvolvimento de Sistemas pela Faculdade Unisa, com grande intuito de ter experiência com front-end e pode agregar para meu time. tenho certificados
                 hardware e software de smartphones. Atualmente, estou expandindo meu conhecimento em desenvolvimento
                 web. 
                 </strong>
             </p>
+           
             <div class="buttons py-3">
                 <a href="#skills" class="resume-btn">SKILLS</a>
                 <a href="#projeto" class="projects-btn">PROJECTS</a>
             </div>
-            <p class="about-text  text-gray-900"> <strong> <>Cursando Aplicação Web (HTML, CSS e JavaScript) no SENAI ... <br> Esse Portfolio foi feito em HTML(5) CSS(3) TAILWIND<> <br> Arthur Henrique Luna </strong> </p>
+            <p class="about-textrounded-t-2xl text-gray-900"> <strong> <>Cursando Aplicação Web (HTML, CSS e JavaScript) no SENAI ... <br> Esse Portfolio foi feito em HTML(5) CSS(3) TAILWIND<> <br> Arthur Henrique Luna </strong> </p>
+            
         </section>
     </main>
 
     <section id="skills" class="container fade-in">
         <h2> SKILLS  </h2>
         <div class="skills-grid">
-            <div class="skill-item">
+            <div class="skill-item bg-gray-100">
                 <div class="skill-icon">&#128187;</div>
                 <h3> Frontend </h3>
                 <p> HTML, CSS, Javascript, React </p>
             </div>
-            <div class="skill-item">
+            <div class="skill-item bg-gray-100">
                 <div class="skill-icon">&#128295;</div>
                 <h3> Backend </h3>
                 <p> Node.js, Javascript, Python </p>
             </div>
-            <div class="skill-item">
+            <div class="skill-item bg-gray-100">
                 <div class="skill-icon">&#128202;</div>
                 <h3> Banco de dados </h3>
                 <p> MongoDB, MySQL </p>
             </div>
-            <div class="skill-item">
+            <div class="skill-item bg-gray-100">
                 <div class="skill-icon">&#128736;</div>
                 <h3> Ferramentas </h3>
                 <p> Git, Docker, AWS </p>
@@ -84,7 +89,7 @@
     <section id="projeto" class="projetos">
         <h2>PROJETOS </h2>
         <div class="projetos-grid">
-            <div class="projeto-card"> 
+            <div class="projeto-card bg-gray-100"> 
                 <h3 class="titulo-projetos"> Plataforma De Cursos </h3>
                 <div class="buttonss">
                     <a href="https://github.com/arthurlunaa/plataforma-de-cursos" class="projects-btns">PROJECTS <style></style> </a>
@@ -96,7 +101,7 @@
                     <span> MONGODB </span>
                 </div>
             </div>
-            <div class="projeto-card">
+            <div class="projeto-card bg-gray-100">
                 <h3 class="titulo-projetos"> App de Gerenciamento de Tarefas </h3>
                 <div class="buttonss">
                     <a href="https://github.com/arthurlunaa/integrativeProject_Containerized_systems" class="projects-btns">PROJECTS <style></style> </a>
@@ -108,7 +113,7 @@
                     <span> MONGODB </span>
                 </div>
             </div>
-            <div class="projeto-card">
+            <div class="projeto-card bg-gray-100">
                 <h3 class="titulo-projetos"> Jogo de Encontrar Palavras  </h3>
                 <div class="buttonss">
                     <a href="https://github.com/arthurlunaa/secrete-word" class="projects-btns">PROJECTS <style></style> </a>
@@ -118,6 +123,7 @@
                     <span> HTML </span>
                     <span> REACT </span>
                     <span> FIREBASE </span>
+                    
                 </div>
             </div>
         </div>
