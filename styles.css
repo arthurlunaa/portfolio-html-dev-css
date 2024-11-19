@@ -494,7 +494,7 @@ gap: 2rem;
   }
   .intro-box h1 {
     text-align: center;
-    font-size: 60px;
+    font-size: 50px;
     margin: px ;
   }
 
@@ -504,7 +504,7 @@ gap: 2rem;
 
   .profile-section {
     width: 100%;
-    margin-top: 130px;
+    margin-top: 150px;
     gap: 20px;
     align-items: center;
     text-align: center;
