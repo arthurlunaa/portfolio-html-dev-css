@@ -28,7 +28,7 @@ header:hover{
   background-color: #e0e4e8;
 }
 header h1 {
-  font-size: 35px;
+  font-size: 30px;
   font-weight: normal;
   line-height: 38px;
 }
@@ -79,7 +79,7 @@ main {
 }
 .profile-section h2 {
   margin-top: px;
-  font-size: 60px;
+  font-size: 28px;
   line-height: 35px;
   color: #000080;
 }
@@ -90,7 +90,7 @@ main {
   color: #000080;
 }
 .profile-section h4 {
-  font-size: 30px;
+  font-size: 25px;
   line-height: 40px;
   color: #000;
   margin-top: 25px;
@@ -106,12 +106,12 @@ main {
 }
 .intro-box h1 {
   color: #000080;
-  font-size: 30px;
+  font-size: px;
 
 }
 .intro-box p {
   margin: 20px 0;
-  font-size: 30px;
+  font-size: 25px;
   line-height: 32px;
   border-top: 1px solid;
 }
@@ -149,11 +149,10 @@ main {
 }
 .container h2{
   
-  color: #000080;
-  text-align: center ;
-  align-items: center;
-  margin-left: 220px;
   font-size: 60px;
+  text-align: center;
+  color: #000080;
+  margin-top: 50px;
 }
 .skill-item {
   color: #000080;
@@ -417,7 +416,13 @@ footer {
     width: 70%;
     align-items: center;
   }
-
+  .container h2{
+  
+    font-size: 60px;
+    text-align: center;
+    color: #000080;
+    margin-left: 220px;
+  }
   .skill-item h3 {
     font-size: 18px;
     
