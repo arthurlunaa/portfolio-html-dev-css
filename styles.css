@@ -28,7 +28,7 @@ header:hover{
   background-color: #e0e4e8;
 }
 header h1 {
-  font-size: 30px;
+  font-size: 35px;
   font-weight: normal;
   line-height: 38px;
 }
@@ -79,7 +79,7 @@ main {
 }
 .profile-section h2 {
   margin-top: px;
-  font-size: 28px;
+  font-size: 60px;
   line-height: 35px;
   color: #000080;
 }
@@ -90,7 +90,7 @@ main {
   color: #000080;
 }
 .profile-section h4 {
-  font-size: 25px;
+  font-size: 30px;
   line-height: 40px;
   color: #000;
   margin-top: 25px;
@@ -106,12 +106,12 @@ main {
 }
 .intro-box h1 {
   color: #000080;
-  font-size: px;
+  font-size: 30px;
 
 }
 .intro-box p {
   margin: 20px 0;
-  font-size: 25px;
+  font-size: 30px;
   line-height: 32px;
   border-top: 1px solid;
 }
@@ -147,11 +147,13 @@ main {
   gap: 2rem;
   padding: 2rem;
 }
-.container h2 {
-  font-size: 60px;
-  text-align: center;
+.container h2{
+  
   color: #000080;
-  margin-top: 20px;
+  text-align: center ;
+  align-items: center;
+  margin-left: 220px;
+  font-size: 60px;
 }
 .skill-item {
   color: #000080;
@@ -375,18 +377,30 @@ footer {
     position: fixed;
     top: 0;
     z-index: 1000;
+    align-items: center;
+    text-align: center;
+    
   }
   header h1 {
     font-size: 24px;
+    align-items: center;
   }
   .nav-links{
     flex-direction: row;
-    display: flex;
-    text-align: left;
+    
+    align-items: center;
     padding: 5px;
+    
+  }
+  .avatar-box img {
+    width: px;
+    border-radius: 50%;
+  ali
   }
   .nav-links a {
     gap: 8px;
+    text-align: center;
+    align-items: center;
   }
   .intro-box {
     padding: 20px;
@@ -401,12 +415,23 @@ footer {
 
   .profile-section {
     width: 70%;
+    align-items: center;
   }
 
   .skill-item h3 {
-    font-size: 20px;
+    font-size: 18px;
+    
+  }
+  .skills-grid{
+    display: flex;
+    
+    gap: 7rem;
   }
 
+.skill-item{
+
+gap: 2rem;
+}
   .skill-item p {
     font-size: 18px;
   }
@@ -415,7 +440,8 @@ footer {
     font-size: 50px;
   }
 
-  .buttons {
+
+.buttons {
     margin: 40px 0;
   }
 }
@@ -423,10 +449,14 @@ footer {
 @media (max-width: 480px) and (min-width: 321px) {
   body{
     width: 100%;
+  } 
+  .header-text{
+    padding: 1px;
   }
   main {
     flex-direction: column;
-    padding: 20px;
+    padding: 24px;
+    gap: ;
   }
   .nav-links{
     flex-direction: row;
@@ -466,7 +496,7 @@ footer {
 
   .profile-section {
     width: 100%;
-    margin-top: 50px;
+    margin-top: 80px;
     gap: 20px;
     align-items: center;
     text-align: center;
